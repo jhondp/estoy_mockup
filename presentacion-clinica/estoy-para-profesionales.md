@@ -29,19 +29,51 @@ Versión del 25 de octubre de 2026. Documento de trabajo para revisión clínica
 
 ## 2. Por qué existe
 
-**El problema que intenta resolver**, según el documento de concepto:
+Muchas herramientas de bienestar están pensadas para alguien que ya tiene energía, constancia y orden. Esta sección describe para quién se diseña Estoy, por qué esas herramientas le fallan, qué apuesta hace el proyecto y qué no pretende ser.
 
-- Las apps de ánimo suelen exigir constancia (rachas, recordatorios insistentes) y castigan la ausencia. Así, la persona que más lo necesita, la que lleva semanas sin poder, vuelve con culpa o no vuelve.
-- Los formularios y las listas tienen una carga cognitiva alta para muchas personas neurodivergentes.
-- Una misma app suele tratar igual un día de crisis y un día estable.
+### Para quién: lo que vive en el día a día
 
-**Por qué "un mundo" y no un formulario.** El diseño parte de tres apuestas:
+Las fuentes no describen a la persona por un diagnóstico, sino por cómo está su camino en un periodo de la vida. Son personas adultas neurodivergentes que pueden pasar por alguna de estas situaciones:
 
-1. **El mundo es la interfaz.** Registrar, calmarse o dar un paso hacia una meta son gestos en un lugar (regar una planta, dejar leña en el fuego), no campos para rellenar. La guía de diseño dice: *"Si quito la ilustración y la pantalla funciona igual, es estilo web: rehacer."*
-2. **La distancia representa la capacidad.** El "radio" del mundo sigue el estado de la persona: en el Refugio se está adentro, en la Bruma se hacen paseos cortos y en la Expedición se recorre el camino abierto. Es una traducción espacial de la activación conductual graduada.
-3. **Cada mecánica necesita una razón terapéutica.** Si no se puede decir qué ayuda a sanar o a sostenerse, no se agrega. Esta regla es de la guía oficial de diseño.
+- **Un día de crisis o un "apagón".** Hacer cualquier cosa cuesta. La meta no es avanzar, sino sostenerse.
+- **Un ánimo bajo que dura semanas o meses.** Se funciona a medias, cuesta disfrutar lo que antes gustaba y se pierde el rumbo.
+- **Estar "más o menos bien", pero sin dirección.** La persona funciona y disfruta algunas cosas, pero nada la mueve mucho. El concepto lo llama *languidecer* y no lo trata como un problema que arreglar.
+- **Una etapa estable**, con ganas de propósito y de metas.
 
-El juego invita, pero nunca exige habilidad, tiempo ni constancia.
+En todos los casos pesan la carga sensorial y la social: cansarse con la gente o con los lugares, aceptar demasiadas cosas o no poder decir que no. Las fuentes piden frases literales, una estructura fija y nada que haya que buscar. También piensan en olvidos concretos: la botica muestra siempre la última toma para que nadie tome la dosis dos veces por no recordar si ya la tomó. Las fuentes no usan el término "disfunción ejecutiva". Si ese marco corresponde a estas dificultades está *por definir* con criterio clínico.
+
+### Por qué las herramientas habituales le fallan
+
+Los registros de hábitos, los diarios de ánimo y las apps de productividad suelen medir el éxito por el uso. Para esta persona, ese diseño puede hacer daño de cuatro maneras:
+
+- **La racha que se rompe.** Si la constancia es la regla, la ausencia se vuelve fracaso, y la ausencia suele llegar justo en los días difíciles. Quien lleva semanas sin poder vuelve con culpa o no vuelve. Por eso el principio dice: *"Volver después de semanas es igual de fácil que volver mañana."*
+- **La autoevaluación con números.** Puntajes, porcentajes y contadores invitan a calificarse. El concepto advierte que a algunas personas mirar su ánimo a diario les aumenta la rumiación, y por eso la escala numérica es opcional. La guía prohíbe el progreso en números, aunque quedan algunos (sección 9).
+- **La carga cognitiva.** Formularios, listas, menús y botones que hay que buscar gastan la poca energía de un mal día. Estoy usa pocos nombres propios, cada uno presentado con su historia, un modo de lenguaje simple y un solo registro diario.
+- **El todo o nada.** Muchas apps tratan igual un día de crisis y uno estable: o se completa todo, o no cuenta. En Estoy, un toque ya es un registro completo, y la versión mínima de un hábito o de un paso también cuenta.
+
+A esto se suman las mecánicas de enganche que el proyecto descarta a propósito: recompensas al azar, rankings, vencimientos y mensajes de culpa como "te extrañé". La app tiene éxito cuando ayuda, no cuando se usa más. Por eso, el indicador más honesto, según el concepto, es cuántas personas vuelven tras dos semanas o más sin entrar.
+
+### La apuesta: un mundo que se habita
+
+En lugar de una app que se rellena, Estoy propone un lugar al que se llega. Tiene cinco partes:
+
+- **El tiempo afuera describe cómo está el camino.** La persona toca la ventana y responde *"¿Cómo está el camino hoy para ti?"*. Hay tres opciones: **Refugio** (nieva y hoy no hace falta salir), **Bruma** (hay niebla, pero lo cercano está despejado) y **Expedición** (el camino está abierto). Lo difícil se nombra como el tiempo afuera, no como un rasgo de la persona. Ella elige el clima, y la app nunca lo cambia sola. La distancia que se recorre sigue la lógica de la activación conductual graduada que invocan las fuentes. Ningún lugar se cierra: en el Refugio, lo lejano se ve nevado, pero se puede entrar. Las fuentes no nombran un marco teórico para la metáfora misma, así que su relación con técnicas como la externalización está *por definir*.
+- **Los personajes acompañan, no juzgan.** Olmo recibe siempre igual, Brin acompaña afuera y Ascua respira contigo. Ninguno evalúa, diagnostica ni tiene necesidades que atender, y Ascua nunca usa la culpa. Según el diseño, una compañía cálida y predecible baja el umbral para empezar. En los momentos serios no habla ningún personaje.
+- **Gestos en lugar de campos.** Registrar, calmarse o dar un paso hacia una meta son gestos en el mundo, como regar una planta o dejar leña en el fuego. La prueba de la guía: *"Si quito la ilustración y la pantalla funciona igual, es estilo web: rehacer."*
+- **"Estar aquí ya cuenta."** Tocar "Estoy" es un registro completo. En el Refugio, el salón lo dice con todas sus letras: *"Afuera nieva. Hoy no hace falta salir. Estar aquí ya cuenta."*
+- **Descansar es legítimo.** Al entrar al Refugio, Olmo guarda los viajes en el baúl, sin fechas, y dice *"Aquí no tienes que hacer nada"*. Al volver, se retoman donde quedaron, sin "ponerse al día". El guardián de la puerta, que está planificado (`M-UMBRAL`), lleva la idea a los límites: *"retirarte no es rendirte"*. Para que el descanso no se vuelva evitación, las personas de confianza siempre pueden pasar.
+
+Una regla ordena todo: si no se puede decir qué ayuda a sanar o a sostenerse una mecánica, no se agrega.
+
+### Lo que Estoy no es
+
+> Estoy **no es un tratamiento, no diagnostica y no reemplaza la terapia.** No tiene evidencia propia de eficacia. La app muestra y no interpreta: la interpretación clínica es del profesional. En los momentos de riesgo, el lenguaje es directo y lleva a recursos reales, como el \*4141 y el 131.
+
+El concepto la piensa como un **puente con la psiquiatría y la psicoterapia**, con apoyos para el tiempo entre sesiones. Prevé notas para la próxima sesión, "lo que me llevé" de cada una, tareas de terapia en el tablón y un informe de una página para la consulta. Esa parte está planificada (etapa 8, sección 7). Las fuentes no afirman de forma explícita que la app no sustituya la conexión humana, aunque orientan hacia las personas con la mesa común, la colina del cuervo y las personas de confianza. Cómo decirlo dentro de la app está *por definir*, y hoy la app todavía no muestra un aviso de que no reemplaza la terapia.
+
+### Por qué su mirada importa ahora
+
+Estoy está en fase de piloto: hasta 20 personas la usarán durante algunas semanas, y ninguna la recibirá antes de una revisión profesional. El autor no es profesional de salud mental, y las reglas clínicas actuales son un borrador sin validar. Antes de llegar a una persona real necesitan criterio clínico la pregunta de cuidado y su protocolo, los textos de "Esto tiene nombre", los recursos de ayuda en Chile, lo que dice la botica sobre una dosis olvidada, el manejo de la energía alta y los números que todavía existen. La sección 8 reúne las preguntas concretas.
 
 ## 3. Principios de diseño
 
