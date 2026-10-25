@@ -103,7 +103,6 @@ footer{margin-top:56px;color:var(--muted);font-size:.9rem;border-top:1px solid v
   <p class="quote">"Cuanto mejor estás, más lejos llegas, y siempre vuelves al fuego."</p>
   <p class="lead">Una app de acompañamiento en salud mental con forma de posada en un valle de fantasía, pensada para personas neurodivergentes. Este documento explica qué es, por qué existe, cómo funciona y qué razón terapéutica tiene cada mecánica, para pedirle su opinión profesional.</p>
   <div class="note"><strong>Importante.</strong> Estoy es un acompañamiento de autoayuda en fase de piloto. <strong>No es un tratamiento, no es una herramienta diagnóstica y no reemplaza la terapia.</strong> No tiene evidencia propia de eficacia. Las reglas clínicas actuales son un borrador sin validar y ninguna persona recibirá la app antes de una revisión profesional.</div>
-  <div class="note safe"><strong>Qué cambió desde la versión del 24 de octubre.</strong> La etapa 6g (metas guiadas, estrellas y "Tu cielo") está terminada y publicada. La etapa 6r (movimiento y espacios) está en construcción. Se revisaron en el código las brechas señaladas antes (sección 9), y hay preguntas e imágenes nuevas.</div>
   <nav class="toc" aria-label="Secciones">
     <a href="#que-es">1. Qué es</a><a href="#por-que">2. Por qué existe</a><a href="#principios">3. Principios</a><a href="#recorrido">4. Recorrido</a><a href="#fundamentos">5. Fundamentos</a><a href="#seguridad">6. Seguridad</a><a href="#estado">7. Estado</a><a href="#preguntas">8. Sus preguntas</a><a href="#tensiones">9. Tensiones</a>
   </nav>
@@ -485,17 +484,17 @@ footer{margin-top:56px;color:var(--muted);font-size:.9rem;border-top:1px solid v
 
 <h2 id="tensiones">9. Tensiones conocidas</h2>
 <p>Son tensiones que el propio proyecto reconoce o que aparecen al contrastar los documentos con la app construida.</p>
-<h3>Brechas de la versión anterior, revisadas en el código el 25 de octubre</h3>
+<h3>Brechas conocidas entre el diseño y la app</h3>
 <div class="tablewrap"><table>
 <tr><th>Brecha</th><th>Estado</th><th>Qué se encontró</th></tr>
-<tr><td>El aviso "Estoy no reemplaza la terapia"</td><td><span class="status s-wip">Sigue abierta</span></td><td>No aparece en ningún texto de la app. La ACT se nombra una vez, pero no el aviso.</td></tr>
-<tr><td>Números en el diario, el grimorio y el pozo</td><td><span class="status s-wip">Sigue abierta</span></td><td>El diario cuenta llegadas, días de descanso y respiros. El grimorio dice "Te ayudó 9 de 11 veces". El pozo muestra "Predicción: 2 de 5" y "esperabas 2, fue 4". La 6g sí quitó las cifras de viajes, estrellas y cielo.</td></tr>
-<tr><td>La fuente para dislexia</td><td><span class="status s-wip">Sigue abierta</span></td><td>Solo están Young Serif y Atkinson Hyperlegible. No hay ajuste de fuente.</td></tr>
-<tr><td>El respaldo cifrado</td><td><span class="status s-wip">Sigue abierta</span></td><td>No existe todavía (etapa 9). El respaldo automático de Android sigue desactivado.</td></tr>
+<tr><td>El aviso "Estoy no reemplaza la terapia"</td><td><span class="status s-wip">Abierta</span></td><td>No aparece en ningún texto de la app. La ACT se nombra una vez, pero no el aviso.</td></tr>
+<tr><td>Números en el diario, el grimorio y el pozo</td><td><span class="status s-wip">Abierta</span></td><td>El diario cuenta llegadas, días de descanso y respiros. El grimorio dice "Te ayudó 9 de 11 veces". El pozo muestra "Predicción: 2 de 5" y "esperabas 2, fue 4". Los viajes, las estrellas y el cielo no muestran cifras.</td></tr>
+<tr><td>La fuente para dislexia</td><td><span class="status s-wip">Abierta</span></td><td>Solo están Young Serif y Atkinson Hyperlegible. No hay ajuste de fuente.</td></tr>
+<tr><td>El respaldo cifrado</td><td><span class="status s-wip">Abierta</span></td><td>No existe todavía (etapa 9). El respaldo automático de Android está desactivado.</td></tr>
 </table></div>
 <h3>Tensiones</h3>
 <ol class="tension">
-<li><strong>"Sin números" frente a los números que existen:</strong> la etapa 6g quitó las cifras de los viajes, las estrellas y el cielo, incluso escritas en palabras. Siguen los contadores en el diario ("veces llegaste a la posada", "días de descanso"), "9 de 11" en el grimorio, "esperabas 2, fue 4" en el pozo, "N piedras" en el santuario (una excepción del autor), la frecuencia del huerto ("3 veces por semana, cuando puedas") y la escala del sol de −3 a +3, que es opcional. En las metas guiadas quedan dos excepciones: "un primer paso de 2 minutos" y las velas "Primera pregunta de cuatro".</li>
+<li><strong>"Sin números" frente a los números que existen:</strong> los viajes, las estrellas y el cielo no usan cifras, ni siquiera escritas en palabras, pero hay contadores en el diario ("veces llegaste a la posada", "días de descanso"), "9 de 11" en el grimorio, "esperabas 2, fue 4" en el pozo, "N piedras" en el santuario (una excepción del autor), la frecuencia del huerto ("3 veces por semana, cuando puedas") y la escala del sol de −3 a +3, que es opcional. En las metas guiadas quedan dos excepciones: "un primer paso de 2 minutos" y las velas "Primera pregunta de cuatro".</li>
 <li><strong>Registro y rumiación:</strong> la escala es opcional, pero no hay criterio sobre a quién desaconsejarla (<em>por definir</em>).</li>
 <li><strong>Descanso o evitación:</strong> "Hoy no hace falta salir" y la puerta cerrada por defecto en el Refugio, frente a una activación conductual que advierte contra la evitación.</li>
 <li><strong>Reglas clínicas redactadas por una IA</strong> en el rol de psiquiatra, sin validar.</li>
@@ -503,7 +502,7 @@ footer{margin-top:56px;color:var(--muted);font-size:.9rem;border-top:1px solid v
 <li><strong>Los 10 segundos antes de "Seguir al Refugio":</strong> pueden proteger o sentirse como una trampa.</li>
 <li><strong>"Esto tiene nombre" a las 8 semanas,</strong> cuando el criterio de la distimia exige dos años.</li>
 <li><strong>La energía alta y la hipomanía</strong> se detectan con una sola opción, y la respuesta es solo limitar los viajes y sugerir consultar.</li>
-<li><strong>No empezar viajes nuevos en Refugio y Bruma:</strong> ya está construida. Nada se cierra: el viaje se guarda "para más adelante", los activos descansan y "Dar un paso igual" sigue ahí. La regla sigue sin revisión clínica.</li>
+<li><strong>No empezar viajes nuevos en Refugio y Bruma:</strong> ya está construida. Nada se cierra: el viaje se guarda "para más adelante", los activos descansan y "Dar un paso igual" sigue ahí. La regla todavía no tiene revisión clínica.</li>
 <li><strong>Afirmaciones de eficacia en los textos,</strong> como la del bestiario.</li>
 <li><strong>El aviso "no reemplaza la terapia"</strong> se exige en el diseño, pero sigue faltando en la app.</li>
 <li><strong>Vínculo afectivo con Ascua:</strong> el autor lo busca a propósito y falta criterio clínico sobre el apego.</li>

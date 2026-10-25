@@ -2,8 +2,6 @@
 
 Versión del 25 de octubre de 2026. Documento de trabajo para revisión clínica. Las imágenes están en `docs/presentacion-clinica/img/`.
 
-**Qué cambió desde la versión del 24 de octubre:** la etapa 6g (metas guiadas, estrellas y "Tu cielo") está terminada y publicada; la etapa 6r (movimiento y espacios) está en construcción (`M-MUNDO-6R`); se revisaron en el código las brechas señaladas antes (sección 9); hay preguntas nuevas (14 a 18) e imágenes nuevas.
-
 ---
 
 ## Contexto para la IA
@@ -508,18 +506,18 @@ La versión web privada está publicada con la etapa 6g (metas guiadas). La etap
 
 Están tomadas de las fuentes del proyecto y del contraste con el código.
 
-**Brechas de la versión anterior, revisadas en el código el 25 de octubre:**
+**Brechas conocidas entre el diseño y la app:**
 
 | Brecha | Estado | Qué se encontró |
 | --- | --- | --- |
-| El aviso "Estoy no reemplaza la terapia" | Sigue abierta | No aparece en ningún texto de la app. La ACT se nombra una vez, pero no el aviso. |
-| Números en el diario, el grimorio y el pozo | Sigue abierta | El diario cuenta llegadas, días de descanso y respiros. El grimorio dice "Te ayudó 9 de 11 veces". El pozo muestra "Predicción: 2 de 5" y "esperabas 2, fue 4". La 6g sí quitó las cifras de viajes, estrellas y cielo. |
-| La fuente para dislexia | Sigue abierta | Solo están Young Serif y Atkinson Hyperlegible. No hay ajuste de fuente. |
-| El respaldo cifrado | Sigue abierta | No existe todavía (etapa 9). El respaldo automático de Android sigue desactivado. |
+| El aviso "Estoy no reemplaza la terapia" | Abierta | No aparece en ningún texto de la app. La ACT se nombra una vez, pero no el aviso. |
+| Números en el diario, el grimorio y el pozo | Abierta | El diario cuenta llegadas, días de descanso y respiros. El grimorio dice "Te ayudó 9 de 11 veces". El pozo muestra "Predicción: 2 de 5" y "esperabas 2, fue 4". Los viajes, las estrellas y el cielo no muestran cifras. |
+| La fuente para dislexia | Abierta | Solo están Young Serif y Atkinson Hyperlegible. No hay ajuste de fuente. |
+| El respaldo cifrado | Abierta | No existe todavía (etapa 9). El respaldo automático de Android está desactivado. |
 
 **Tensiones:**
 
-1. **"Sin números" frente a los números que existen.** La guía prohíbe los contadores. La etapa 6g quitó las cifras de los viajes, las estrellas y el cielo, incluso escritas en palabras. Siguen: conteos en el diario ("0 veces llegaste a la posada", "días de descanso"), la evidencia del grimorio ("9 de 11 veces"), la comparación del pozo ("esperabas 2, fue 4"), la línea del santuario ("N piedras", una excepción explícita del autor), la frecuencia del huerto ("3 veces por semana, cuando puedas") y la escala del sol de −3 a +3 (opcional, pensada para el informe). En las metas guiadas quedan dos excepciones: "un primer paso de 2 minutos" y las velas "Primera pregunta de cuatro".
+1. **"Sin números" frente a los números que existen.** La guía prohíbe los contadores. Los viajes, las estrellas y el cielo no usan cifras, ni siquiera escritas en palabras. Pero hay conteos en el diario ("0 veces llegaste a la posada", "días de descanso"), la evidencia del grimorio ("9 de 11 veces"), la comparación del pozo ("esperabas 2, fue 4"), la línea del santuario ("N piedras", una excepción explícita del autor), la frecuencia del huerto ("3 veces por semana, cuando puedas") y la escala del sol de −3 a +3 (opcional, pensada para el informe). En las metas guiadas quedan dos excepciones: "un primer paso de 2 minutos" y las velas "Primera pregunta de cuatro".
 2. **El registro y la rumiación.** El concepto reconoce que mirar el ánimo a diario puede aumentar la rumiación. Se resolvió con una escala opcional, pero no hay criterio sobre a quién desaconsejarla (*por definir*).
 3. **Descanso o evitación.** El Refugio dice "Hoy no hace falta salir" y la puerta estará cerrada por defecto en el Refugio. La activación conductual advierte contra la evitación. Las salvaguardas previstas son que las personas de confianza pasan siempre y que Umbral pregunta "¿Dejamos pasar a una sola persona hoy?". Falta validarlo.
 4. **Reglas clínicas escritas por una IA.** Todo el borrador (sugerencias, umbrales, estado mixto, límite de viajes y frecuencia de la tarjeta de ayuda) lo redactó un asistente de IA en el rol de psiquiatra. No es criterio clínico.
@@ -527,9 +525,9 @@ Están tomadas de las fuentes del proyecto y del contraste con el código.
 6. **Los 10 segundos antes de "Seguir al Refugio".** Pueden proteger de saltar la pantalla por reflejo o sentirse como una trampa.
 7. **"Esto tiene nombre" a las 8 semanas.** El criterio clínico de la distimia exige dos años. La pantalla adelanta la invitación a consultar sin afirmar un diagnóstico.
 8. **Energía alta e hipomanía.** Se detecta con una opción de respuesta y con el medidor del registro. La respuesta es solo limitar los viajes y sugerir hablarlo con un profesional. ¿Basta?
-9. **No empezar viajes en el Refugio y la Bruma.** Ya está construida. Nada se cierra: el viaje nuevo se guarda "para más adelante", los activos descansan y "Dar un paso igual" sigue ahí. La regla sigue sin revisión clínica.
+9. **No empezar viajes en el Refugio y la Bruma.** Ya está construida. Nada se cierra: el viaje nuevo se guarda "para más adelante", los activos descansan y "Dar un paso igual" sigue ahí. La regla todavía no tiene revisión clínica.
 10. **Afirmaciones de eficacia en los textos.** El bestiario afirma que nombrar una emoción baja su intensidad. Los textos marcados como "clinical copy" en el código están pendientes de revisión.
-11. **El aviso "no reemplaza la terapia".** El diseño del piloto lo exige en Ajustes, pero sigue sin estar en el código.
+11. **El aviso "no reemplaza la terapia".** El diseño del piloto lo exige en Ajustes, pero todavía no está en el código.
 12. **Vínculo afectivo con Ascua.** El autor quiere que se forme un vínculo afectivo y la regla es "sin necesidades ni culpa". Falta criterio clínico sobre el apego a un personaje.
 13. **Los recursos son de Chile y el idioma es español neutro.** Si la app se usa fuera de Chile, los números de ayuda no sirven (*por definir*).
 14. **Población objetivo amplia.** "Personas neurodivergentes" abarca perfiles muy distintos. No hay criterios de inclusión ni de exclusión para el piloto (*por definir*).
